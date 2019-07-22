@@ -2,12 +2,12 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
         <license_model>none</license_model>
-        <logo/>
+        <logo>5b027c354f7677809881c5c18110c7fa</logo>
         <menu/>
         <name>FD Utils Spoke</name>
         <private>false</private>
@@ -24,9 +24,9 @@
         <sys_created_by>Arnoud.Kooi</sys_created_by>
         <sys_created_on>2019-07-22 21:06:23</sys_created_on>
         <sys_id>e58864794f3677809881c5c18110c7e2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 21:06:23</sys_updated_on>
+        <sys_updated_on>2019-07-22 21:48:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
@@ -34,4 +34,43 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#fcfcfe</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <image_height>48</image_height>
+        <image_width>48</image_width>
+        <size_bytes>2030</size_bytes>
+        <size_compressed>1495</size_compressed>
+        <state>available</state>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:48:01</sys_created_on>
+        <sys_id>5b027c354f7677809881c5c18110c7fa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:48:02</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>e58864794f3677809881c5c18110c7e2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="5b027c354f7677809881c5c18110c7fa">5b027c354f7677809881c5c18110c7fa</sys_attachment>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:48:01</sys_created_on>
+        <sys_id>9b027c354f7677809881c5c18110c7fa</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>7dT5N9R7GAfw7xiyNSSikNzbDakkSR0ly5XIkmjvWI9ou5o0V+m6tjIZS7YZhsKYLFNNhpisszCLsY/JMpambDEZxoxtGNX99jfcH+99zut5P+fz+fFzzudBeXudhqnpqwEAAHNzdfYBp+XPVoGCGTiqSgYH5L7PaSegottQCB4Uwxw9HQGgKl19I0gJAKCAt8f5U+A9MrHxKRLUlPQUREElNaGSKMkoakoyJTmZmpJCS02hpqbQ0lJB9PRnoOaMdHpGenNmBqglK5ORndWSncVAZzPQaAYGw8zBsHJzmDk5LGwuE5sLJjsPy8rDsvPzWvPz2fn5rS+etxa8AJNTWABqKyrkFBa24YpA7ThcO764A4/veInvLHnZWV7aWVrSVVbaXV7WVV7WTSjvfkXoef2aS3zTSyRyicTeirc8UgWPRPpQSeJVVX6oquyrrgb114Bq+mpq+t+TB2prB+tqB+vr+A0NQ02Nw1TKEKVpmEYbodFG6bQROpj0ETp9tLn5I6MFJGAyPjIZAhbzE5v9qbX1M6d1rK1trKN9vKtzort7ktsz2cud6u39wuN96eub7u+bGRgQ8geFfL5wePjryMjs6ChIJPg4JxDMjY/PT4yLJyYWJicXpqYkX75IpqelMzPSr8LF2dklkWhpTrQ8P78sFq+IxasL4hWJZFUikUmlssXFtaWlteXl9ZUVkFwmk6+tbayvg75tbIC+f//+A/i//nUR6u9sAv8JgPDx8v3x3y7Ad1V5D/gkqnDXK/cBQIPxsyGtdwkh4OUOxKnLCN+7oYgHQRHXAXjQzXCERfh1hLG1haWF1SGJ8U0MuFFc3Jwdz7u6l2LkATzv7WwMFOamBFWo1vXHZ+3vDfdX85zBW6v5nnMnGlsdOPzWQz2t6Ym2sky5qHvIn3+FuC4TyqEiu57Fyjk7vdcLWmviOHh7v2oueq9AiGKQE2wsL/qmbbH6PVFCyEQjIwkh1hC9zL2DOHYYevih3i0F7YX7yakZUBf4zZL1E5tvKGzyVp3GnzVS09aqg5RGax7hKmSd9Icfgmi6rs8oIh14poDFys6rjh8YSkaeQBFA3qphqGjDVYrYowvfwo/bFhJy70F6p0u4lIzA73WBb8E6AOdv/9gIt3g+1IVy/8U01U8h3QTQHszQiWXLG6MLKBOfIjr8r3tTEvXNjgg9g14N3bGWRu4eRJtXtCy9UMrVVzHrubZak3HL4T1noLn5OEkrcdU3MsrQD9gFU6R4Ui+yeuyyBLaZUY/+Mtk+4ibPcON4PQ9Rqrc1NBwy/w2eNw/BRfmdSOO2vZXYMlVZe7XfHRDVPnap6nWA6aDpjqnRj6oH20wPdmW7rCbduwJBvqn0vmUTb7BN6P4+VJw5raKzVZc3uXx26m+n7a/Na4uCY8ihuwMGWKl0zZLSIFvdHrTJ44jTBseoUmphjDIz2iK2zsedJI+04B00JsIu59ygj+pePairuZgd86hx/g/siR1SnujkZ/+yOY6d/Fvr6A2ELbm+lh/m3BIalablGpgaZZptvPY124d3e+rYfYrpFf5OglwGMXFCvsfU4D1I2Dry0ZvI9iwOKS3pHMHMSL8OpsSq339dVx+HQ+Gx4U8SHLp3NVhX0uz6oJoDuR2fwkzKDu2DmV3KKQ7ssCTuydOacvMcG1cL8LqszZr+U3oBxu8DqObqKqx3BkGFVL1pDeIZ0kcpThBjVpCS03xBODuawveQVmN1Zzy2VMSd1sZ1PGup/zWgJLjYm/9wYLN9xOb9iiZx/ZFwr9gZ5LW5B+rHVO7goJNnhumOgVCR1UCwknK8Kmf2fNHXkc9BUET2t8yrllXxJtwliLaBbGTsrQEWQAVecjEi+HHt5l9qeHfYH1UpLy/eOPhKNbBzX8P6XaD8mj1axxNQ1wg+dzyh8VjI5zNPSxJs4iQTxn5L5jQMJj42ggmwacBG8GFJp3305M/95HbKy7nCKTDhH0PBVlnuBwAA</data>
+        <length>1980</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="5b027c354f7677809881c5c18110c7fa">5b027c354f7677809881c5c18110c7fa</sys_attachment>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:48:01</sys_created_on>
+        <sys_id>1f027c354f7677809881c5c18110c7fa</sys_id>
+    </sys_attachment_doc>
 </record_update>
