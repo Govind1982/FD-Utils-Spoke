@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Property from system properties</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].s}}","label":"step➛Script step➛s","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].st}}","label":"step➛Script step➛st","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].str}}","label":"step➛Script step➛str","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].stri}}","label":"step➛Script step➛stri","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].strin}}","label":"step➛Script step➛strin","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].string}}","label":"step➛Script step➛string","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].nu}}","label":"step➛Script step➛nu","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].num}}","label":"step➛Script step➛num","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].numb}}","label":"step➛Script step➛numb","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].numbe}}","label":"step➛Script step➛numbe","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].number}}","label":"step➛Script step➛number","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].tr}}","label":"step➛Script step➛tr","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].tru}}","label":"step➛Script step➛tru","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].true}}","label":"step➛Script step➛true","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueF}}","label":"step➛Script step➛trueF","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueFa}}","label":"step➛Script step➛trueFa","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueFal}}","label":"step➛Script step➛trueFal","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueFals}}","label":"step➛Script step➛trueFals","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueFalse}}","label":"step➛Script step➛trueFalse","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Property">b44538f54f7677809881c5c18110c71b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c498b8b94f7677809881c5c18110c78c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_c498b8b94f7677809881c5c18110c78c</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=c498b8b94f7677809881c5c18110c78c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c498b8b94f7677809881c5c18110c78c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:30</sys_created_on>
+        <sys_id>3498f8b94f7677809881c5c18110c72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6098f8b94f7677809881c5c18110c71a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>c498b8b94f7677809881c5c18110c78c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:30</sys_created_on>
+        <sys_id>f498f8b94f7677809881c5c18110c72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a498f8b94f7677809881c5c18110c714</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c498b8b94f7677809881c5c18110c78c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>c498b8b94f7677809881c5c18110c78c</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:30</sys_created_on>
+        <sys_id>fc98f8b94f7677809881c5c18110c72e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c498b8b94f7677809881c5c18110c78c</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>c498b8b94f7677809881c5c18110c78c</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:30</sys_created_on>
+        <sys_id>b098f8b94f7677809881c5c18110c72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c498b8b94f7677809881c5c18110c78c</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>truefalse</field>
+        <id>c498b8b94f7677809881c5c18110c78c</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:16:30</sys_created_on>
+        <sys_id>3c98f8b94f7677809881c5c18110c72e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:16:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c498b8b94f7677809881c5c18110c78c</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].trueFalse}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get Property from system properties</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outSring}}","label":"step➛Script step➛outSring","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outNumber}}","label":"step➛Script step➛outNumber","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outTrueFalse}}","label":"step➛Script step➛outTrueFalse","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Property">b44538f54f7677809881c5c18110c71b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:17:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8ec8fcb94f7677809881c5c18110c76b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_8ec8fcb94f7677809881c5c18110c76b</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:17:28</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=8ec8fcb94f7677809881c5c18110c76b"/>
+    <sys_element_mapping action="delete_multiple" query="id=8ec8fcb94f7677809881c5c18110c76b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>8ec8fcb94f7677809881c5c18110c76b</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:17:28</sys_created_on>
+        <sys_id>76c830f94f7677809881c5c18110c727</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:17:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ec8fcb94f7677809881c5c18110c76b</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outNumber}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>8ec8fcb94f7677809881c5c18110c76b</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:17:28</sys_created_on>
+        <sys_id>3ac830f94f7677809881c5c18110c727</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:17:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ec8fcb94f7677809881c5c18110c76b</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outSring}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>truefalse</field>
+        <id>8ec8fcb94f7677809881c5c18110c76b</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:17:28</sys_created_on>
+        <sys_id>b2c830f94f7677809881c5c18110c727</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:17:28</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ec8fcb94f7677809881c5c18110c76b</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outTrueFalse}}</value>
+    </sys_element_mapping>
+</record_update>
