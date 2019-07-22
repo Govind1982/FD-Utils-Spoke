@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
-    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Utils">200934f94f7677809881c5c18110c715</category>
@@ -11,155 +10,154 @@
         <description>Get Property from system properties the flow will try to pars it to an appropriate output, currently string, true false , integer and decimal is supported.</description>
         <internal_name>get_property</internal_name>
         <label_cache>[{"name":"{{action.property}}","label":"action➛property","type":"action","ref":""},{"name":"{{action.default}}","label":"action➛default","type":"action","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outTrueFalse}}","label":"step➛Script step➛outTrueFalse","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outD}}","label":"step➛Script step➛outD","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDe}}","label":"step➛Script step➛outDe","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDec}}","label":"step➛Script step➛outDec","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDeci}}","label":"step➛Script step➛outDeci","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDecim}}","label":"step➛Script step➛outDecim","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDecima}}","label":"step➛Script step➛outDecima","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDecimal}}","label":"step➛Script step➛outDecimal","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].o}}","label":"step➛Script step➛o","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].ou}}","label":"step➛Script step➛ou","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].out}}","label":"step➛Script step➛out","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outInteger}}","label":"step➛Script step➛outInteger","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outString}}","label":"step➛Script step➛outString","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outS}}","label":"step➛Script step➛outS","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outSt}}","label":"step➛Script step➛outSt","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outStr}}","label":"step➛Script step➛outStr","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outStri}}","label":"step➛Script step➛outStri","type":"step","ref":""},{"name":"{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outStrin}}","label":"step➛Script step➛outStrin","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>8b9d38314fb677809881c5c18110c70d</latest_snapshot>
-        <master_snapshot>ac3ab43d4f7677809881c5c18110c7a3</master_snapshot>
+        <master>true</master>
         <name>Get Property</name>
         <outputs/>
         <outputs/>
-        <state>published</state>
-        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <parent_action display_value="Get Property">b44538f54f7677809881c5c18110c71b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:02:03</sys_created_on>
+        <sys_created_on>2019-07-22 22:23:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b44538f54f7677809881c5c18110c71b</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_id>ac3ab43d4f7677809881c5c18110c7a3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Get Property</sys_name>
         <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
-        <sys_update_name>sys_hub_action_type_definition_b44538f54f7677809881c5c18110c71b</sys_update_name>
+        <sys_update_name>sys_hub_action_type_snapshot_ac3ab43d4f7677809881c5c18110c7a3</sys_update_name>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
         <sys_updated_on>2019-07-22 22:38:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
-    </sys_hub_action_type_definition>
-    <sys_variable_value action="delete_multiple" query="document_key=b44538f54f7677809881c5c18110c71b"/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=ac3ab43d4f7677809881c5c18110c7a3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>b44538f54f7677809881c5c18110c71b</document_key>
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ac3ab43d4f7677809881c5c18110c7a3</document_key>
         <order>3</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:34:37</sys_created_on>
-        <sys_id>02bc38fd4f7677809881c5c18110c7f6</sys_id>
+        <sys_created_on>2019-07-22 22:34:45</sys_created_on>
+        <sys_id>48ccb8fd4f7677809881c5c18110c73c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:34:37</sys_updated_on>
+        <sys_updated_on>2019-07-22 22:34:45</sys_updated_on>
         <value/>
-        <variable display_value="">7dbc38fd4f7677809881c5c18110c7d2</variable>
+        <variable display_value="">3bbcb8fd4f7677809881c5c18110c726</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>b44538f54f7677809881c5c18110c71b</document_key>
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ac3ab43d4f7677809881c5c18110c7a3</document_key>
         <order>3</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:27:13</sys_created_on>
-        <sys_id>2d0bb47d4f7677809881c5c18110c711</sys_id>
+        <sys_created_on>2019-07-22 22:38:35</sys_created_on>
+        <sys_id>58ad78314fb677809881c5c18110c709</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:27:13</sys_updated_on>
-        <value/>
-        <variable display_value="">ad0bb47d4f7677809881c5c18110c707</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_type_definition</document>
-        <document_key>b44538f54f7677809881c5c18110c71b</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:38:27</sys_created_on>
-        <sys_id>9e9df4314fb677809881c5c18110c7a7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:38:27</sys_updated_on>
+        <sys_updated_on>2019-07-22 22:38:35</sys_updated_on>
         <value>0</value>
-        <variable display_value="">029df4314fb677809881c5c18110c791</variable>
+        <variable display_value="">08ad38314fb677809881c5c18110c7da</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b44538f54f7677809881c5c18110c71b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ac3ab43d4f7677809881c5c18110c7a3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 22:27:19</sys_created_on>
+        <sys_id>df0bf47d4f7677809881c5c18110c797</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 22:27:19</sys_updated_on>
+        <value/>
+        <variable display_value="">cf0bf47d4f7677809881c5c18110c78e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac3ab43d4f7677809881c5c18110c7a3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>number</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:10:09</sys_created_on>
-        <sys_id>e71774794f7677809881c5c18110c700</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2019-07-22 22:23:38</sys_created_on>
+        <sys_id>013af43d4f7677809881c5c18110c758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:22:01</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:23:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDecimal}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>outdecimal</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:34:37</sys_created_on>
-        <sys_id>8ebc38fd4f7677809881c5c18110c7f5</sys_id>
+        <sys_created_on>2019-07-22 22:34:45</sys_created_on>
+        <sys_id>c4ccb8fd4f7677809881c5c18110c73c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:34:37</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:34:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outDecimal}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>outinteger</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:27:13</sys_created_on>
-        <sys_id>a90bb47d4f7677809881c5c18110c711</sys_id>
+        <sys_created_on>2019-07-22 22:27:19</sys_created_on>
+        <sys_id>5f0bf47d4f7677809881c5c18110c797</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:27:13</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outInteger}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>outstring</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:31:31</sys_created_on>
-        <sys_id>3c0c3cbd4f7677809881c5c18110c778</sys_id>
+        <sys_created_on>2019-07-22 22:31:39</sys_created_on>
+        <sys_id>620c7cbd4f7677809881c5c18110c7ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:31:31</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:31:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outString}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>outtruefalse</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:38:27</sys_created_on>
-        <sys_id>1e9df4314fb677809881c5c18110c7a7</sys_id>
+        <sys_created_on>2019-07-22 22:38:35</sys_created_on>
+        <sys_id>d4ad78314fb677809881c5c18110c709</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:38:27</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:38:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outTrueFalse}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>string</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:10:09</sys_created_on>
-        <sys_id>ab1774794f7677809881c5c18110c700</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2019-07-22 22:23:38</sys_created_on>
+        <sys_id>c13af43d4f7677809881c5c18110c758</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:31:11</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
-        <value/>
+        <sys_updated_on>2019-07-22 22:28:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
+        <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outString}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>truefalse</field>
-        <id>b44538f54f7677809881c5c18110c71b</id>
+        <id>ac3ab43d4f7677809881c5c18110c7a3</id>
         <sys_created_by>Arnoud.Kooi</sys_created_by>
-        <sys_created_on>2019-07-22 22:10:09</sys_created_on>
-        <sys_id>271774794f7677809881c5c18110c700</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-07-22 22:23:38</sys_created_on>
+        <sys_id>4d3af43d4f7677809881c5c18110c757</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>Arnoud.Kooi</sys_updated_by>
-        <sys_updated_on>2019-07-22 22:17:20</sys_updated_on>
-        <table>var__m_sys_hub_action_output_b44538f54f7677809881c5c18110c71b</table>
+        <sys_updated_on>2019-07-22 22:23:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ac3ab43d4f7677809881c5c18110c7a3</table>
         <value>{{step[fb2ad47b-771f-4859-84a6-890578f6ff4c].outTrueFalse}}</value>
     </sys_element_mapping>
 </record_update>
