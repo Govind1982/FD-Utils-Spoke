@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation>Convert a passed in date to a encoded query date</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Date">2af8a0f94f3677809881c5c18110c736</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Convert a passed in date to a encoded query date</description>
+        <internal_name>to_date</internal_name>
+        <label_cache>[{"name":"{{action.date}}","label":"action➛date","type":"action","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].d}}","label":"step➛Script step➛d","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].da}}","label":"step➛Script step➛da","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dat}}","label":"step➛Script step➛dat","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].date}}","label":"step➛Script step➛date","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQ}}","label":"step➛Script step➛dateQ","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQu}}","label":"step➛Script step➛dateQu","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQue}}","label":"step➛Script step➛dateQue","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuer}}","label":"step➛Script step➛dateQuer","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuery}}","label":"step➛Script step➛dateQuery","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>To Date</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="To Date">2e4964f94f3677809881c5c18110c74a</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:16:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>16eae07d4f3677809881c5c18110c7c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>To Date</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_16eae07d4f3677809881c5c18110c7c4</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:22:55</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=16eae07d4f3677809881c5c18110c7c4"/>
+    <sys_element_mapping action="delete_multiple" query="id=16eae07d4f3677809881c5c18110c7c4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>datequery</field>
+        <id>16eae07d4f3677809881c5c18110c7c4</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:22:55</sys_created_on>
+        <sys_id>2b4ca8bd4f3677809881c5c18110c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:22:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_16eae07d4f3677809881c5c18110c7c4</table>
+        <value>{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuery}}</value>
+    </sys_element_mapping>
+</record_update>

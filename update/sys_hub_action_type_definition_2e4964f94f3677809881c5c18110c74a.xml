@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Convert a passed in date to a encoded query date</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Date">2af8a0f94f3677809881c5c18110c736</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Convert a passed in date to a encoded query date</description>
+        <internal_name>to_date</internal_name>
+        <label_cache>[{"name":"{{action.date}}","label":"action➛date","type":"action","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].d}}","label":"step➛Script step➛d","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].da}}","label":"step➛Script step➛da","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dat}}","label":"step➛Script step➛dat","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].date}}","label":"step➛Script step➛date","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQ}}","label":"step➛Script step➛dateQ","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQu}}","label":"step➛Script step➛dateQu","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQue}}","label":"step➛Script step➛dateQue","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuer}}","label":"step➛Script step➛dateQuer","type":"step","ref":""},{"name":"{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuery}}","label":"step➛Script step➛dateQuery","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>be4c68bd4f3677809881c5c18110c7e8</latest_snapshot>
+        <master_snapshot>16eae07d4f3677809881c5c18110c7c4</master_snapshot>
+        <name>To Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:09:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e4964f94f3677809881c5c18110c74a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>To Date</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2e4964f94f3677809881c5c18110c74a</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:22:55</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=2e4964f94f3677809881c5c18110c74a"/>
+    <sys_element_mapping action="delete_multiple" query="id=2e4964f94f3677809881c5c18110c74a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>datequery</field>
+        <id>2e4964f94f3677809881c5c18110c74a</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-07-22 21:22:47</sys_created_on>
+        <sys_id>f94c68bd4f3677809881c5c18110c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:22:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2e4964f94f3677809881c5c18110c74a</table>
+        <value>{{step[fdd1b496-f93a-4be8-88f8-d2aff76c819c].dateQuery}}</value>
+    </sys_element_mapping>
+</record_update>
