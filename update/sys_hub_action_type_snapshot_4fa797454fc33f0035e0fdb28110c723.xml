@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>instance_hyperlink</internal_name>
+        <label_cache>[{"name":"{{action.display}}","label":"action➛Display","type":"action","ref":""},{"name":"{{action.url}}","label":"action➛URL","type":"action","ref":""},{"name":"{{action.new_window}}","label":"action➛New Window","type":"action","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].h}}","label":"step➛Script step➛h","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hy}}","label":"step➛Script step➛hy","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyp}}","label":"step➛Script step➛hyp","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hype}}","label":"step➛Script step➛hype","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyper}}","label":"step➛Script step➛hyper","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyperl}}","label":"step➛Script step➛hyperl","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyperli}}","label":"step➛Script step➛hyperli","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyperlin}}","label":"step➛Script step➛hyperlin","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyperlink}}","label":"step➛Script step➛hyperlink","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hr}}","label":"step➛Script step➛hr","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hre}}","label":"step➛Script step➛hre","type":"step","ref":""},{"name":"{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].href}}","label":"step➛Script step➛href","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Instance Hyperlink</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Hyperlink">9c9193cd4f833f0035e0fdb28110c71f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:11:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4fa797454fc33f0035e0fdb28110c723</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Instance Hyperlink</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_4fa797454fc33f0035e0fdb28110c723</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:11:56</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=4fa797454fc33f0035e0fdb28110c723"/>
+    <sys_element_mapping action="delete_multiple" query="id=4fa797454fc33f0035e0fdb28110c723"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>href</field>
+        <id>4fa797454fc33f0035e0fdb28110c723</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:11:56</sys_created_on>
+        <sys_id>f3a797454fc33f0035e0fdb28110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:11:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4fa797454fc33f0035e0fdb28110c723</table>
+        <value>{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].href}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>hyperlink</field>
+        <id>4fa797454fc33f0035e0fdb28110c723</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:11:56</sys_created_on>
+        <sys_id>33a797454fc33f0035e0fdb28110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:11:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4fa797454fc33f0035e0fdb28110c723</table>
+        <value>{{step[25cb0e44-9db8-4833-97c9-a2e1009719fe].hyperlink}}</value>
+    </sys_element_mapping>
+</record_update>

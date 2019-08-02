@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Hyperlink">ec9a53094fc33f0035e0fdb28110c7b3</action>
+        <cid>25cb0e44-9db8-4833-97c9-a2e1009719fe</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>099a93094fc33f0035e0fdb28110c755</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="FD Utils Spoke" source="x_snc_fdutil_spoke">e58864794f3677809881c5c18110c7e2</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="FD Utils Spoke">e58864794f3677809881c5c18110c7e2</sys_scope>
+        <sys_update_name>sys_hub_step_instance_099a93094fc33f0035e0fdb28110c755</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:30:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=099a93094fc33f0035e0fdb28110c755"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>099a93094fc33f0035e0fdb28110c755</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>519a93094fc33f0035e0fdb28110c7f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 17:30:38</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var isExternal = inputs.url.startsWith('http') || inputs.url.startsWith('mailto');
+  var href = isExternal ? inputs.url : gs.getProperty('glide.servlet.uri') + inputs.url ;
+  var target = inputs.new_window ? " target='blank' " : "";
+  var displayValue = inputs.display || href;
+
+  outputs.hyperlink = "&lt;a href='" + href +"' " + target + " &gt;" + displayValue + "&lt;/a&gt;";
+  outputs.href = href;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>099a93094fc33f0035e0fdb28110c755</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>9d9a93094fc33f0035e0fdb28110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=099a93094fc33f0035e0fdb28110c755"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>099a93094fc33f0035e0fdb28110c755</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>599a93094fc33f0035e0fdb28110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>display</field>
+        <id>099a93094fc33f0035e0fdb28110c755</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>519a93094fc33f0035e0fdb28110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_099a93094fc33f0035e0fdb28110c755</table>
+        <value>{{action.display}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_window</field>
+        <id>099a93094fc33f0035e0fdb28110c755</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>d99a93094fc33f0035e0fdb28110c7f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_099a93094fc33f0035e0fdb28110c755</table>
+        <value>{{action.new_window}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>099a93094fc33f0035e0fdb28110c755</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>1d9a93094fc33f0035e0fdb28110c7f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>url</field>
+        <id>099a93094fc33f0035e0fdb28110c755</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2019-08-02 12:24:36</sys_created_on>
+        <sys_id>9d9a93094fc33f0035e0fdb28110c7f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2019-08-02 12:24:36</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_099a93094fc33f0035e0fdb28110c755</table>
+        <value>{{action.url}}</value>
+    </sys_element_mapping>
+</record_update>
